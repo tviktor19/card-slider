@@ -5,16 +5,87 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Card slider</title>
         <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
     </head>
     <body>
         <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
             <ul class="carousel">
                 <li class="card">
                     <div class="img">
-                        <img src="./images/img-1.jpg" alt="" />
+                        <img
+                            src="./images/img-1.jpg"
+                            alt="img"
+                            draggable="false"
+                        />
                     </div>
+                    <h2>Blanche Pearson</h2>
+                    <span>Sales Manager</span>
+                </li>
+                <li class="card">
+                    <div class="img">
+                        <img
+                            src="./images/img-2.jpg"
+                            alt="img"
+                            draggable="false"
+                        />
+                    </div>
+                    <h2>James Hunt</h2>
+                    <span>Driver</span>
+                </li>
+                <li class="card">
+                    <div class="img">
+                        <img
+                            src="./images/img-3.jpg"
+                            alt="img"
+                            draggable="false"
+                        />
+                    </div>
+                    <h2>Jane Doe</h2>
+                    <span>Developer</span>
+                </li>
+                <li class="card">
+                    <div class="img">
+                        <img
+                            src="./images/img-4.jpg"
+                            alt="img"
+                            draggable="false"
+                        />
+                    </div>
+                    <h2>Mike Dean</h2>
+                    <span>Lawyer</span>
+                </li>
+
+                <li class="card">
+                    <div class="img">
+                        <img
+                            src="./images/img-5.jpg"
+                            alt="img"
+                            draggable="false"
+                        />
+                    </div>
+                    <h2>Olivia Wilson</h2>
+                    <span>Accountant</span>
+                </li>
+                <li class="card">
+                    <div class="img">
+                        <img
+                            src="./images/img-6.jpg"
+                            alt="img"
+                            draggable="false"
+                        />
+                    </div>
+                    <h2>Tommy Shelby</h2>
+                    <span>Frontend Developer</span>
                 </li>
             </ul>
+            <i id="right" class="fa-solid fa-angle-right"></i>
         </div>
         <script src="app.js"></script>
     </body>
